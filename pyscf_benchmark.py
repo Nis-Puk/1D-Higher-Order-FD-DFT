@@ -114,3 +114,5 @@ plt.legend()
 plt.tight_layout()
 plt.savefig("figures/pyscf_benchmark.svg", dpi=800)
 #plt.show()
+
+print(f"Mean absolute difference between PySCF RHF and 1D Higher-Order FD DFT (EXX): {np.mean(np.abs(ref_o8['rho_rhf'] - res_exx_o8['density'])):.2e}")
