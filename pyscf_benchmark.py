@@ -99,10 +99,10 @@ x = solver_o8.x
 #lt.plot(x, res_exx_o2["density"], color="blue", linestyle="-", lw=1.5, label=r"Our Code (EXX) $\mathcal{O}(2)$")
 #plt.plot(x, res_lda_o2["density"], color="blue", linestyle="--", lw=1.5, label=r"Our Code (1D-LDA) $\mathcal{O}(2)$")
 
-plt.plot(x, ref_o8["rho_fci"], color="black", linestyle="-", lw=2.9, label=r"PySCF FCI")
+#plt.plot(x, ref_o8["rho_fci"], color="black", linestyle="-", lw=2.9, label=r"PySCF FCI")
 plt.plot(x, ref_o8["rho_rhf"], color="black", linestyle="--", lw=2.9, alpha=0.8, label=r"PySCF RHF")
 plt.plot(x, res_exx_o8["density"], color="#2ca02c", linestyle="-", lw=1.5, label=r"1D Higher-Order FD DFT (EXX) $\mathcal{O}(8)$")
-plt.plot(x, res_lda_o8["density"], color="#2ca02c", linestyle="--", lw=1.5, label=r"1D Higher-Order FD DFT (1D-LDA) $\mathcal{O}(8)$")
+#plt.plot(x, res_lda_o8["density"], color="#2ca02c", linestyle="--", lw=1.5, label=r"1D Higher-Order FD DFT (1D-LDA) $\mathcal{O}(8)$")
 
 #plt.title("Electron density $\\rho(x)$ in the 1D-Soft-Core-Potential")
 plt.xlabel("$x$ ")
